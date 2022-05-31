@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-int firstNumber, secondNumber, sumOfTwoNumbers;
-cout << "Enter two integers: ";
-cin >> firstNumber >> secondNumber;
-// sum of two numbers in stored in variable sumOfTwoNumbers
-sumOfTwoNumbers = firstNumber + secondNumber;
+int firstNumber, secondNumber,thirdNumber, sumOfNumbers; //code is being updated to print sum of 3 instead of 2
+cout << "Enter three integers: ";
+cin >> firstNumber >> secondNumber >>thirdNumber;
+// sum of THREE numbers in stored in variable sumOfTwoNumbers
+sumOfNumbers = firstNumber + secondNumber+thirdNumber;
 // Prints sum
-cout << firstNumber << " + " << secondNumber << " = " << sumOfTwoNumbers;
+cout << firstNumber << " + " << secondNumber <<" + " << thirdNumber << " = " << sumOfNumbers;
 return 0;
 }
